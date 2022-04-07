@@ -1,0 +1,38 @@
+.footer{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  width: 100%;
+  height:50px;
+  background-color:#1c4966;
+  text-align: center;
+  color:white;
+}
+.list-header{
+  display: flex;
+  justify-content:space-between;
+  padding: 8px 0px;
+  width: 100%;
+  align-items: center;
+}
+
+.table{
+margin-top: 24px;
+}
+
+th{
+  padding:4px;
+}
+.table>:not(:first-child) {
+  border-top: 0px  !important;
+}
+.table-bordered>:not(caption)>* {
+  border-width: 0px !important;
+}
+.ml-4{
+  margin: 0px 8px 0px 0px;
+}
+
+.container{
+  min-height: 70vh;
+}
